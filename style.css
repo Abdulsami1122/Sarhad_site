@@ -35,7 +35,7 @@ background-color: #39398f;
     text-decoration: none;
     color: #000;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    width: 100%;
 
 }
 
@@ -46,7 +46,7 @@ nav ul {
     padding: 0;
     background-color: #39398f;
     text-align: center;
-    padding-right: 320px;
+    padding-left: 20px;
     
 }
 
@@ -72,8 +72,9 @@ nav ul li a{
 }
 /*  Drop down */
 .ddown{
-    position: absolute;
+    position: relative;
     padding-top: 10px;
+    
     
 }
 .ddown-toggle{
@@ -86,6 +87,7 @@ padding: 0.5em;
 background-color: white;
 
 
+
 }
 .ddown-menu li{
     display: block;
@@ -93,7 +95,8 @@ background-color: white;
 .ddown-menu a{
     display: block;
     padding: 1px;
-    color: black;  
+    color: black;
+    text-transform: uppercase;  
 }
 .ddown-menu a:hover{
     background-color:darkgrey;
@@ -137,16 +140,21 @@ background-color: white;
     border-color: rgb(233, 227, 227);
     border-style: solid;
     width: 1245px;
-    height: 270px;
+    height: 340px;
     margin-top: 25px;
     margin-left: 46px;
     margin-right: 42px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 4px 5px 5px 4px #ebe7e4;
+    
+}
+.quick-links ul{
+list-style: none;
 }
 .quick-links ul li a{
     text-decoration: none;
+    
     
 }
 /*  Events */
@@ -177,5 +185,6 @@ background-color: white;
 .footer-content ul li a{
     color: white;
     text-decoration: none;
+    
     
 }
